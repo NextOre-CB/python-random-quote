@@ -10,7 +10,9 @@ def primary():
   last = len(quotes) - 1
   rnd = random.randint(0,last)
 
-  print(quotes[rnd])
+  m1 = 6 + 2
+  
+  print(quotes[rnd]+quotes[rnd-1]+quotes[m1])
 
 if __name__== "__main__":
   primary()
